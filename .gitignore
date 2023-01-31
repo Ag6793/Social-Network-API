@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Need to remove later
+README.md/
