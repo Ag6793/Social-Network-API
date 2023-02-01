@@ -17,15 +17,13 @@ router
   .put(updateUser)
   .delete(deleteUser);
 
-
-// router.route('/:userId').get(getSingleUser).delete(deleteUser);
 //GET a single user by its _id and populated thought and friend data
 
-router.route('/:userId/friends').post(addFriend);
+// /api/users/:userId/friends/:friendId 
 
-router.route('/:userId/friends/:friendId').delete(removeFriend);
-
-//POST to add a new friend to a user's friend list
-//DELETE to remove a friend from a user's friend list
+router
+  .route('/:userId/friends/:friendId')
+  .post(addFriend)
+  .delete(removeFriend);
 
 module.exports = router;
