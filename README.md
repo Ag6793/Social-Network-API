@@ -3,24 +3,18 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)
 
 ## Description
-
+This social network API will allow users to share their thoughts, react to their friends thoughts, and create a friend list.
 
 
 ## Technologies
-* MongoDB
+* Mongoose
 * Javascript
-* Insomnia
+* Express
 
 ## Installation
 * Clone the project repository. 
 * Run npm start to start the server
 * Application is not deployed, you can access project via insomnia
-
-## Usage
-
-
-## Future Development
-
 
 ## Credits
 - [ALEXANDRIA GUERRERO](https://github.com/Ag6793)
